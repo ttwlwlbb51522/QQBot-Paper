@@ -1,0 +1,48 @@
+{
+  "cmd.unknown": "Unknown command: %s, type /help for help",
+  "help.message": "QQBot commands:\n/list [server] view online players\n/tps [server] view server performance\n/ping [gameID/server] view latency\n/bind <gameID> bind game account\n/unbind unbind game account\n/me view my binding",
+
+  "list.all.header": "[All servers online status]",
+  "list.all.line": "%s: %d/%d players",
+  "list.all.line.nomax": "%s: %d players",
+  "list.empty": "No servers available",
+  "list.server.header": "[%s online status]",
+  "list.server.empty": "%s has no online players",
+  "list.player.line": "%s (%dms)",
+  "list.server.notfound": "Server not found: %s",
+
+  "tps.all.header": "[All servers performance]",
+  "tps.line": "%s: TPS %s / MSPT %s",
+  "tps.server.header": "[%s performance]",
+  "tps.server.no_data": "No TPS data for server %s",
+  "tps.server.notfound": "Server not found: %s",
+  "tps.no_bridge": "No backend server connected, cannot get TPS",
+
+  "ping.all.header": "[All servers latency]",
+  "ping.all.line": "%s: avg %dms (%d players)",
+  "ping.server.header": "[%s player latency]",
+  "ping.player": "Player %s latency: %dms (server: %s)",
+  "ping.notfound": "Server or player not found: %s",
+
+  "bind.usage": "Usage: /bind <gameID>, e.g. /bind Steve",
+  "bind.already_bound": "You have already bound gameID: %s",
+  "bind.code_sent": "Please use account %s and run /bind accept %s in game (code valid for 5 minutes)",
+  "bind.accept.usage": "Usage: /bind accept <code>",
+  "bind.accept.success": "Bound successfully! gameID: %s",
+  "bind.accept.notfound": "Verification code not found",
+  "bind.accept.expired": "Verification code expired, please bind again in QQ",
+  "bind.accept.mismatch": "Verification code does not match current gameID",
+  "bind.accept.bound_by_other": "This gameID has been bound by another QQ",
+  "bind.notify": "Your QQ has been bound to gameID: %s",
+
+  "unbind.not_bound": "You have not bound a gameID",
+  "unbind.success": "Unbound successfully! gameID: %s",
+  "unbind.game.not_bound": "You have not bound a gameID",
+  "unbind.game.success": "Unbound successfully!",
+  "unbind.notify": "Your QQ has been unbound from gameID: %s",
+
+  "me.not_bound": "You have not bound a gameID",
+  "me.result": "Your bound gameID: %s",
+
+  "reminder.bound_join": "Your bound account %s is online on server %s"
+}

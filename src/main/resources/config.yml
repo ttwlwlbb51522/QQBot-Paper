@@ -1,0 +1,13 @@
+enabled: true
+wsUrl: "ws://127.0.0.1:18080"
+reconnectDelaySeconds: 5
+commandPrefix: "/"
+language: "zh_cn"
+serverName: "我的服务器"
+secretFile: "forwarding.secret"
+# auto: 自动检测 Velocity；
+#standalone: 强制独立；
+#velocity: 强制走 Velocity
+proxyMode: "auto"
+# bridge 上报间隔（秒）
+bridgeIntervalSeconds: 2

@@ -1,0 +1,12 @@
+name: QQBot
+version: 1.0.0
+main: cn.citprobe.QQBotPlugin
+api-version: '1.20'
+authors: [citprobe]
+commands:
+  bind:
+    description: "QQ绑定"
+    usage: "/bind accept <验证码>"
+  unbind:
+    description: "QQ解绑"
+    usage: "/unbind"
