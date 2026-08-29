@@ -1,5 +1,7 @@
 # QQBot-Paper
 
+> 📖 在线文档：[https://doc.citprobe.cn/QQBot-Paper](https://doc.citprobe.cn/QQBot-Paper)
+
 基于 [Paper](https://papermc.io/software/paper) 的 QQ 群服互联机器人插件，通过 WebSocket 连接自建中转站，实现 QQ 群/私聊与游戏服务器的消息、指令、绑定互通。
 
 > 🔗 这是 **Paper（后端）版**。代理端请使用 [QQBot-Velocity](https://github.com/ttwlwlbb51522/QQBot-Velocity) 插件。
